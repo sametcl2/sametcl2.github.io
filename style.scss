@@ -21,6 +21,7 @@ html {
   height: 100%;
   background: black;
   overflow: hidden;
+  font-family: $font_family;
 }
 
 #stars {
@@ -69,7 +70,7 @@ html {
   box-shadow: $shadows-big;
   animation: animStar 150s linear infinite;
 
-  &:after {
+  &:after {  
     content: " ";
     position: absolute;
     top: 2000px;
@@ -89,9 +90,8 @@ html {
   #title {
     color: $title_color;
     text-align: center;
-    font-size: 100px;
+    font-size: 90px;
     letter-spacing: 10px;
-    font-family: $font_family;
   }
 
   #subtitle {
@@ -100,21 +100,55 @@ html {
     font-size: 23px;
     margin-top: -30px;
     letter-spacing: 5px;
-    font-family: $font_family;
   }
 
   #cizgi {
     border-color: $title_color;
-    width: 25%;
-    margin-top: 40px;
+    width: 20%;
+    margin-top: 35px;
+  }
+
+  #button {
+    outline: none;
+    text-decoration: none;
+    border-radius: 15px;
+    border-color: $title_color;
+    font-family: $font_family;
+    padding: 15px 30px;
+    border-width: 4px;
+    font-size: 25px;
+    color: $title_color;
+    margin-top: 50px;
+    text-decoration: none;
+    background-color: transparent;
+
+    cursor: pointer;
+
+    &:hover{
+      background-color: $title_color;
+      color: black;
+      transition: 0.4s;
+    }
+  }
+
+  #logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+  }
+
+  #logo{
+    padding: 45px;
+    
   }
 }
 
 
-
 @keyframes animStar {
   from {
-    transform: translateY(-300px);
+    transform: translateY(-500px);
   }
 
   to {
