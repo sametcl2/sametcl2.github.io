@@ -1,6 +1,6 @@
 $n: 3;
 $title_color: #A9A13D;
-$font_family: 'Saira Stencil One', cursive;
+$font_family: 'Righteous', cursive;
 
 // n is number of stars required
 @function multiple-box-shadow($n) {
@@ -98,13 +98,13 @@ html {
     color: $title_color;
     text-align: center;
     font-size: 30px;
-    margin-top: -30px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
+    margin-top: -25px;
   }
 
   #cizgi {
     border-color: $title_color;
-    width: 15%;
+    width: 14%;
     margin-top: 35px;
   }
 
@@ -140,7 +140,7 @@ html {
   }
 
   #logo{
-    padding: 45px;
+    padding: 26px 60px;
     
   }
 }
