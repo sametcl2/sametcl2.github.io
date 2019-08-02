@@ -2,7 +2,8 @@ $n: 3;
 $title_color: #A9A13D;
 $font_family: 'Righteous', cursive;
 $screen-md-min: 768px;
-@mixin md {
+
+@mixin responsive {
   @media (max-width: $screen-md-min) {
       @content;
   }
@@ -25,7 +26,7 @@ $shadows-medium: multiple-box-shadow(200);
 $shadows-big: multiple-box-shadow(100);
 
 html {
-  height: 100%;
+  height: 100vh;
   background: black;
   overflow: hidden;
   font-family: $font_family;
@@ -111,7 +112,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 25px;
+  margin: 40px auto;
 
   #title {
     color: $title_color;
@@ -119,9 +120,9 @@ html {
     font-size: 80px;
     letter-spacing: 10px;
     animation-duration: 1s;
-    @include md {
+    @include responsive {
       font-size: 60px;
-      margin: 40px 25px;
+      margin: 40px auto;
     }
   }
 
@@ -132,17 +133,17 @@ html {
     letter-spacing: 2px;
     margin-top: -25px;
     animation-duration: 1.3s;
-    @include md {
-      font-size: 17px;
+    @include responsive {
+      font-size: 20px;
     }
   }
 
   #cizgi {
     border-color: $title_color;
-    width: 14%;
+    width: 16%;
     margin-top: 35px;
-    animation-duration: 3s;
-    @include md {
+    animation-duration: 4s;
+    @include responsive {
       width: 35%;
       border-width: 2px;
     }
@@ -152,10 +153,10 @@ html {
     outline: none;
     text-decoration: none;
     border-radius: 15px;
-    border-color: $title_color;
+    border: solid $title_color;
+    border-width: 1px;
     font-family: $font_family;
-    padding: 15px 30px;
-    border-width: 4px;
+    padding: 15px 20px;
     font-size: 30px;
     letter-spacing: 2px;
     color: $title_color;
@@ -178,18 +179,16 @@ html {
     justify-content: space-around;
     align-items: center;
     margin-top: 35px;
-    animation-duration: 2.4s;
+    animation-duration: 2s;
   }
 
   #logo{
     padding: 26px 60px;
-    @include md {
+    @include responsive {
       padding: 26px 30px;
     }
   }
 }
-
-
 
 @keyframes animStar {
   from {
