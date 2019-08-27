@@ -121,6 +121,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin: 0px auto;
 
   #main-section {
@@ -210,13 +211,20 @@ section {
   #aboutme {
     color: $title_color;
     position: relative;
+    
+    #about {
+      position: absolute;
+      top: 80px;
+      margin: 0px 50px;
+      font-size: 25px;
+    }
 
     #buttonUp {
       border: solid;
       border-width: 1px;
-      border-radius: 15px;
+      border-radius: 25px;
       border-color: $title_color;
-      padding: 20px;
+      padding: 15px;
       color: $title_color;
       text-decoration: none;
       background-color: transparent;
