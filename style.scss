@@ -145,7 +145,7 @@ section {
     color: $title_color;
     text-align: center;
     font-size: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-top: -25px;
     animation-duration: 1.5s;
 
@@ -157,7 +157,7 @@ section {
   #cizgi {
     border-color: $title_color;
     width: 16%;
-    margin-top: 25px;
+    margin-top: 20px;
     animation-duration: 4s;
 
     @include responsive {
@@ -213,7 +213,7 @@ section {
 
     #buttonUp {
       border: solid;
-      border-width: 2px;
+      border-width: 1px;
       border-radius: 15px;
       border-color: $title_color;
       padding: 20px;
@@ -221,8 +221,8 @@ section {
       text-decoration: none;
       background-color: transparent;
       position: absolute;
-      bottom: 20px;
-      right:20px;
+      bottom: 25px;
+      right:30px;
 
       &:hover {
         background-color: $title_color;
