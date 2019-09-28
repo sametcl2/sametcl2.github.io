@@ -135,7 +135,7 @@ section {
     animation-duration: 1.2s;
 
     @media (max-width: $screen-sm-min) {
-      font-size: 40px;
+      font-size: 50px;
       letter-spacing: 6px;
     } 
   }
@@ -151,7 +151,7 @@ section {
     @media (max-width: $screen-sm-min) {
       font-size: 18px;
       letter-spacing: 2px;
-      margin-top: -10px;
+      margin-top: -13px;
 
     } 
   }
@@ -257,8 +257,8 @@ section {
       }
 
       @media (max-width: $screen-sm-min) {
-        bottom: 35px;
-        margin-bottom: 10px;
+        bottom: 45px;
+        margin-bottom: 15px;
         padding: 16px;
         font-size: 15px;
       } 
