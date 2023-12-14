@@ -21,11 +21,11 @@ export default function Home() {
   return (
     <main className="flex flex-col justify-between min-h-screen py-40">
       <div className="flex flex-col justify-center items-center select-none">
-        <p className="text-6xl md:text-9xl font-extrabold text-blue-500 mb-4 antialiased after:transition after:ease-[ease] after:duration-500">
+        <p className="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-800 animate-text antialiased">
           Hi!
         </p>
         <p className="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-sky-500 to-pink-800 animate-text antialiased">
-          I'm Samet
+          {`I'm Samet`}
         </p>
       </div>
     </main>
