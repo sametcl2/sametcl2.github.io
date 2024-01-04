@@ -25,6 +25,15 @@ export default function Home() {
         </a>
       </nav>
       <div className="py-8">
+        <div className="flex flex-row justify-center md:justify-end">
+          <Image
+            src="/ayse.jpeg"
+            width={340}
+            height={340}
+            className="rounded-lg mb-8"
+            alt="Picture of the author"
+          />
+        </div>
         <p className="lg:w-full xl:w-2/3 h-auto md:h-44 lg:h-24 xl:24 text-5xl md:text-7xl leading-tight text-center md:text-start md:mt-12 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple via-lightblue to-pink animate-text">
           {"Hey! I'm Samet Şahin"}
         </p>
