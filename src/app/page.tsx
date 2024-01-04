@@ -7,7 +7,7 @@ import { COMPANY_DATA, ABOUT_ME } from "../constants/data";
 export default function Home() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const onClick = (event: { target: { id: any } }) => {
+  const onClick = (event: any) => {
     setSelectedIndex(event.target.id);
   };
 
@@ -26,7 +26,7 @@ export default function Home() {
       </nav>
       <div className="py-8">
         <p className="lg:w-full xl:w-2/3 h-auto md:h-44 lg:h-24 xl:24 text-5xl md:text-7xl leading-tight text-center md:text-start md:mt-12 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple via-lightblue to-pink animate-text">
-          Hey! I'm Samet Şahin
+          {"Hey! I'm Samet Şahin"}
         </p>
         <p className="text-lightwhite text-center md:text-start text-lg font-light">
           {ABOUT_ME}
@@ -36,7 +36,7 @@ export default function Home() {
           className="flex flex-row justify-center md:justify-start items-center my-28 mt-8 w-auto"
         >
           <p className="text-white text-xl font-light mr-4">
-            Let's talk. Send me e-mail!
+            {"Let's talk. Send me e-mail!"}
           </p>
           <Image
             src="/right_arrow.png"
@@ -53,11 +53,11 @@ export default function Home() {
             {COMPANY_DATA.map((data, index) => (
               <button
                 key={index}
-                id={index}
+                id={index.toString()}
                 className={`${
                   selectedIndex == index ? `bg-gray` : `bg-black`
                 } hover:bg-gray rounded-md text-lightwhite font-light p-4 mr-8 lg:mr-24`}
-                onClick={onClick}
+                onClick={(event) => onClick(event)}
               >
                 {data.companyName}
               </button>
