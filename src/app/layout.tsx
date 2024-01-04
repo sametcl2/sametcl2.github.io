@@ -15,8 +15,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={`bg-slate-950 ${inter.className}`}>{children}</body>
+    <html lang="en" className="scroll-smooth">
+      <body className={`bg-black ${inter.className} antialiased`}>
+        {children}
+      </body>
     </html>
   );
 }
