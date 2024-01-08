@@ -40,6 +40,7 @@ const config: Config = {
       white: "#ffffff",
       lightwhite: "#F0F0F0",
       black: "#000000",
+      lightBlack: "#141414",
       gray: "#1F1E1E",
       lightgray: "#C4C4C4",
       darkgray: "#C6C6C6",

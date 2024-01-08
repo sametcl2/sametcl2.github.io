@@ -71,6 +71,23 @@ const COMPANY_DATA = [
   },
 ];
 
-const ABOUT_ME = `I'm a software engineer based in Istanbul, Turkey and also a master student in engineering management. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. I have been working for 2 years now and beside that I worked 1 year while studying at the university. I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work. Additionally, I was going to go to the USA with the Work and Travel program but even though I passed all the interviews and got the USA visa, I couldn't go because of the coronavirus pandemic.`;
+const PROJECTS = [
+  {
+    name: "Simple Kitchen",
+    desc: "Kitchen Labs is a Home-Made Food Subscription Service. Our purpose is to offer affordable, ready-to-eat, home-made type meals to working professionals.",
+    img: "/simplekitchen.png",
+    width: 600,
+    height: 600,
+  },
+  {
+    name: "El Poder Del Amor",
+    desc: 'The El Poder Del Amor Mobile App is the official mobile application of the television program "Kısmetse Olur". This application provides greater engagement and interaction opportunities for the dedicated viewers of the program. It has reached over one million downloads, reaching a large audience.',
+    img: "/epda.png",
+    width: 350,
+    height: 350,
+  },
+];
 
-export { COMPANY_DATA, ABOUT_ME };
+const ABOUT_ME = `I'm a software engineer based in Istanbul, Turkey and also a master student in engineering management. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. I have been working for two years now and beside that I worked full-time a year while studying at the university. I've manage to gain a decent amount of experience and valuable knowledge from all different kinds of fields throughout my projects/work.`;
+
+export { COMPANY_DATA, ABOUT_ME, PROJECTS };
