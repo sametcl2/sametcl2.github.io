@@ -81,14 +81,14 @@ const COMPANY_DATA = [
 const PROJECTS = [
   {
     name: "Simple Kitchen",
-    desc: "Kitchen Labs is a Home-Made Food Subscription Service. Our purpose is to offer affordable, ready-to-eat, home-made type meals to working professionals.",
+    desc: "The Simple Kitchen website was built using React.js. It includes a landing page that provides information about the company and a section where users can create accounts (including user information and addresses) and order a trial package. Formik was utilized for the form sections.",
     img: "/simplekitchen.png",
     width: 600,
     height: 600,
   },
   {
     name: "El Poder Del Amor",
-    desc: 'The El Poder Del Amor Mobile App is the official mobile application of the television program "Kısmetse Olur". This application provides greater engagement and interaction opportunities for the dedicated viewers of the program. It has reached over one million downloads, reaching a large audience.',
+    desc: 'he El Poder Del Amor Mobile App is the official mobile application of the television program "Kısmetse Olur". This application provides greater engagement and interaction opportunities for the dedicated viewers of the program. It has reached over one million downloads, reaching a large audience. The Mobile App allows users to vote for their favorite contestants, watch program episodes within the app, assess compatibility using the Mamacita artificial intelligence system, and foster interactions among users through its matchmaking feature, providing an enriched and interactive experience for the viewers. The app is downloaded by more than 1 million people.',
     img: "/epda.png",
     width: 350,
     height: 350,
