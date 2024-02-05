@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { Metadata } from "next";
 import Image from "next/image";
 import { COMPANY_DATA, ABOUT_ME, PROJECTS } from "../constants/data";
 
