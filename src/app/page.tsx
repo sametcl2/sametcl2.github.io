@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <main className="container mx-auto py-8 px-6 xl:px-0">
       <div id="about" className="py-8">
-        <p className="lg:w-full xl:w-2/3 h-auto md:h-44 lg:h-24 xl:24 text-5xl md:text-7xl leading-tight text-center md:text-start md:mt-12 font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-purple via-lightblue to-pink">
+        <p className="lg:w-full xl:w-2/3 h-auto md:h-44 lg:h-24 xl:24 text-5xl md:text-7xl leading-tight text-center md:text-start md:mt-12 font-extrabold bg-clip-text text-transparent animate-text bg-gradient-to-r from-purple via-lightblue to-pink">
           {"Hey! I'm Samet Şahin"}
         </p>
         <p className="text-lightwhite text-center md:text-start text-lg font-light mt-4 lg:mt-0 leading-relaxed">
@@ -45,7 +45,7 @@ export default function Home() {
                 id={index.toString()}
                 className={`${
                   selectedIndex == index ? `bg-gray` : `bg-black`
-                } hover:bg-gray rounded-md text-lightwhite font-light w-40 py-4 mr-8 lg:mr-24`}
+                } hover:bg-gray rounded-md text-lightwhite font-light w-40 py-4 px-6 md:px-0 mr-8 lg:mr-24`}
                 onClick={(event) => onClick(event)}
               >
                 {data.companyName}
@@ -112,14 +112,13 @@ export default function Home() {
           <a
             className="mr-4 rounded-md w-48 bg-gradient-to-r p-[2px] from-[#d1c233] via-[#98296f] to-[#50089d] mb-4 md:mb-0"
             href={"mailto:sametsahin37@hotmail.com"}
-            target="_blank"
           >
             <div className="flex flex-row justify-center items-center bg-black text-white rounded-md p-3 ">
               <Image
                 src="/mail.png"
                 width={30}
                 height={30}
-                alt="Picture of the author"
+                alt="E-mail Icon"
                 className="mr-2"
               />
               Send an email
@@ -135,7 +134,7 @@ export default function Home() {
                 src="/linkedin.png"
                 width={30}
                 height={30}
-                alt="Picture of the author"
+                alt="LinkedIn Icon"
                 className="mr-2"
               />
               LinkedIn
@@ -151,7 +150,7 @@ export default function Home() {
                 src="/github.png"
                 width={30}
                 height={30}
-                alt="Picture of the author"
+                alt="Github Icon"
                 className="mr-2"
               />
               Github

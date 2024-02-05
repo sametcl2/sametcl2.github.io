@@ -8,7 +8,10 @@ const COMPANY_DATA = [
     workModel: "Full-Time",
     info: [
       "Codeventure is a software house that has developed Vigo, Joggo, Cornix, etc.",
-      "I joined the team as a React.js and React Native developer. In a very short time, I got a chance to be part of the development of amazing apps. I can experience different projects from different sectors and different needs. Besides development, I join meets with customers so I can improve my communication skills.",
+      "I joined the team as a React.js and React Native developer. In a very short time, I got a chance to be part of the development of amazing websites and an app downloaded by 1M+.",
+      " I had a chance to work with multiple startups from different sectors. It was a great experience to see various needs.",
+      "I was part of planning apps and communicating with customers. So I could improve my communication skills.",
+      " Furthermore; I used JavaScript, TypeScript, React.js, React Native, Next.js, Payload CMS, HTML, CSS, and Git.",
     ],
   },
   {
@@ -19,9 +22,10 @@ const COMPANY_DATA = [
     stack: ["Javascript", "React.js", "Git", "Azure", "Asana"],
     workModel: "Full-Time",
     info: [
-      "Likom has founded in 1984, one of the oldest software firms in Turkey. The company has multiple ERP projects that more than 15000 customers are using.",
-      "I participated in the company's new ERP project, which is under development.",
-      "I worked as a Frontend Developer and my responsibilities were developing new features and handling bug fixes. ",
+      "Likom was founded in 1984, as one of the oldest software firms in Turkey. The company has multiple ERP projects that more than 15000 customers are using.",
+      "I participated in the company's new ERP project, which is under development. It was a great experience to be part of a comprehensive project.",
+      "I worked as a Frontend Developer and my responsibilities were developing new features and handling bug fixes.",
+      "Furthermore; I used JavaScript, React.js, HTML, CSS, and Git.",
     ],
   },
   {
@@ -39,9 +43,11 @@ const COMPANY_DATA = [
     ],
     workModel: "Full-Time",
     info: [
-      "BEST is the biggest transformer manufacturer in Turkey.",
+      "BEST is one of the biggest transformer manufacturers in Turkey.",
       "I got an opportunity to work full-time in the last year of university, school was remote because of the coronavirus pandemic.",
-      " I worked as a Full-Stack Developer and during this time, I took part in the development of two projects from scratch which are being used actively in the firm. Besides these, I developed new features for existing projects.",
+      "I worked as a Full-Stack Developer and during this time, I took part in the development of two projects from scratch which are being used actively in the firm. I got a chance to work with engineers from different fields.",
+      "Besides these, I developed new features for existing projects.",
+      "I used jQuery, ASP.NET Core MVC, React.js, and Git.",
     ],
   },
   {
@@ -52,8 +58,9 @@ const COMPANY_DATA = [
     stack: ["Javascript", "React.js", "Git", "Python", "Django"],
     workModel: "Freelance",
     info: [
-      "I worked as a freelancer Full-stack Developer in the last year of university.",
-      "I took part in building an user panel for existing Natural Language Processor Python scripts. Thus, customers could upload and test their data with Python scripts in the user panel.",
+      "I worked as a freelancer Full-stack Developer in the last year of university. ",
+      "I took part in building a user panel for existing Natural Language Processor Python scripts. Thus, customers could upload and test their data with Python scripts in the user panel. ",
+      "I used React.js and Django.",
     ],
   },
   {
@@ -65,8 +72,8 @@ const COMPANY_DATA = [
     workModel: "Intern",
     info: [
       "This was my first internship. ",
-      "I helped end-users about their problems in the software programs.",
-      "This was a great chance to get familiar with office hierarchy.",
+      "I helped end-users with their problems with the software programs. ",
+      "It was a great chance to get familiar with office hierarchy.",
     ],
   },
 ];
