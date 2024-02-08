@@ -21,7 +21,11 @@ export default function RootLayout({
           <a href="#projects" className="text-white font-light text-lg mr-6">
             Projects
           </a>
-          <a href="#" className="text-white font-light text-lg mr-6">
+          <a
+            href="/SametSahin_Resume2024.pdf"
+            download={true}
+            className="text-white font-light text-lg mr-6"
+          >
             Resume
           </a>
           <a href="#contact" className="text-white font-light text-lg">
